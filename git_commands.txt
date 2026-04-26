@@ -1,2 +1,23 @@
+git init
+git add
+git status
+git rm --cached filename
+git commit -m "test is compulsary need to written"
+rm testing.py
+git restore filename
+
+git init                                                                                                              
+git remote add origin https://github.com/rohitmitte/GIT_DEV.git                                                       
+git remote -v                                                                                                         
+git status                                                                                                            
+git add testing.py                                                                                                    
+git add git_commands.txt                                                                                              
+git status                                                                                                            
+git commit -m"adding testing files"                                                                                   
+git status                                                                                                            
+git remote set-url origin https://(PAT)github.com/rohitmitte/GIT_DEV.git          
+git push origin master                                                                                                
+
+
 the file in that is not copied so, just a random text
 this is some cahnges dne from github
